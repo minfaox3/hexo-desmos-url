@@ -25,7 +25,6 @@ hexo.extend.tag.register('desmos_url', function(args) {
         .desmos_url_thumbnail {
             width: ${thumbnail_width};
             min-height: ${thumbnail_width};
-            background-image:url(https://saved-work.desmos.com/calc_thumbs/production/${id}.png);
             background-size: cover;
             background-position: center;
             border-top-left-radius: 2px;
@@ -59,7 +58,7 @@ hexo.extend.tag.register('desmos_url', function(args) {
             right: 0;
         }
     </style>
-        <a href="https://www.desmos.com/calculator/${id}?lang=${lang}" class="desmos_url_thumbnail"></a>
+        <a href="https://www.desmos.com/calculator/${id}?lang=${lang}" class="desmos_url_thumbnail" style="background-image:url(https://saved-work.desmos.com/calc_thumbs/production/${id}.png);"></a>
         <div class="desmos_url_content">
         <a href="https://www.desmos.com/calculator/${id}?lang=${lang}" class="desmos_url_thumbnail"><div class="desmos_url_title">${title}</div></a>
             <div class="desmos_url_border"></div>
