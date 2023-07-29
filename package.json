@@ -1,0 +1,27 @@
+{
+    "name": "hexo-desmos-url",
+    "version": "1.0.0",
+    "description": "Display your Desmos project as a card on Hexo with mini thumbnail.",
+    "keywords": [
+        "plugin",
+        "card",
+        "tag",
+        "desmos",
+        "hexo"
+    ],
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/minfaox3/hexo-desmos-url.git"
+    },
+    "author": {
+        "name": "minfaox3",
+        "email": "contact@minfaox3.net",
+        "url": "https://minfaox3.net/"
+    },
+    "license": "MIT",
+    "homepage": "https://github.com/minfaox3/hexo-desmos-url#readme"
+}
