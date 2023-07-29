@@ -21,7 +21,7 @@ Add the tag block to a post with the ID of the project you want to link.
 ### Example
 `{% desmos_url af9db8ycji Fan "This graph is graphic art like a fan." %}`
 
-![example](https://github.com/minfaox3/hexo-desmos-url/example.png)
+![example](https://github.com/minfaox3/hexo-desmos-url/blob/main/example.png?raw=true)
 
 ## Configuration
 You can configure the card and thumbnail width, language of project page, border color and background color of card.  
@@ -40,4 +40,4 @@ desmos_url:
 ```
 
 ## LICENSE
-[MIT](https://github.com/minfaox3/hexo-desmos-url/LICENSE)
+[MIT](https://github.com/minfaox3/hexo-desmos-url/blob/main/LICENSE)
